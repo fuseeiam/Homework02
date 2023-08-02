@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .card {
+            border: solid rgb(0, 0, 0);
+            border-radius: 10px;
+            height: 260px;
+            width: 200px;
+            position: relative;
+        }
+
+        .card > h4{
+            color: dimgray;
+            position: relative;
+            top: 5px;
+            right: -10px
+        }
+
+        .picture {
+            width: 100%;
+            display: flex;
+            position: relative;
+            top: -10px;
+        }
+
+        .name {
+            display: flex;
+            position: relative;
+            justify-content: center;
+            border-top: solid gray;
+            padding: 10px;
+        }
+
+        .number{
+            background-color: brown;
+            border-radius: 50%;
+            width: 25px;
+            height: 25px;
+            padding: 5px;
+            position:absolute;
+            top: -10px;
+            right: -15px
+            
+        }
+
+        .number > h3 {
+            color: aliceblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <main  style="margin-inline-start: 40%;"><br>
+        <div class="card">
+            <h4>X</h4>
+
+            <div>
+                <img class="picture" src="human-man-10.svg" alt="Man">
+            </div>
+
+            <div class="name">
+                <h3>A.Rudiger</h3>
+            </div>
+
+            <div class="number">
+                <h3>7</h3>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
